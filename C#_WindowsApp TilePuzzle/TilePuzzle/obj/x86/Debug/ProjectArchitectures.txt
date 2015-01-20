@@ -1,0 +1,2 @@
+C:\Users\Linyan Li\Desktop\amshar-repo\trunk\TilePuzzle\TilePuzzle\NotificationsExtensions\NotificationsExtensions.csproj;x86
+C:\Users\Linyan Li\Desktop\amshar-repo\trunk\TilePuzzle\TilePuzzle\TilePuzzle.csproj;x86

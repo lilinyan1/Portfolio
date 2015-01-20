@@ -1,0 +1,9 @@
+C:\Users\Bzhuang-cc\Desktop\EMS\EMS\AllEmployees\bin\Debug\AllEmployees.dll
+C:\Users\Bzhuang-cc\Desktop\EMS\EMS\AllEmployees\bin\Debug\AllEmployees.pdb
+C:\Users\Bzhuang-cc\Desktop\EMS\EMS\AllEmployees\obj\Debug\AllEmployees.dll
+C:\Users\Bzhuang-cc\Desktop\EMS\EMS\AllEmployees\obj\Debug\AllEmployees.pdb
+C:\Users\tly-cc\Desktop\EMS\EMS\AllEmployees\bin\Debug\AllEmployees.dll
+C:\Users\tly-cc\Desktop\EMS\EMS\AllEmployees\bin\Debug\AllEmployees.pdb
+C:\Users\tly-cc\Desktop\EMS\EMS\AllEmployees\obj\Debug\AllEmployees.csprojResolveAssemblyReference.cache
+C:\Users\tly-cc\Desktop\EMS\EMS\AllEmployees\obj\Debug\AllEmployees.dll
+C:\Users\tly-cc\Desktop\EMS\EMS\AllEmployees\obj\Debug\AllEmployees.pdb

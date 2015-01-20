@@ -1,0 +1,15 @@
+C:\Users\Sekou\Documents\GitHub\EMS\EMS\Presentation\bin\Debug\Presentation.dll
+C:\Users\Sekou\Documents\GitHub\EMS\EMS\Presentation\bin\Debug\Presentation.pdb
+C:\Users\Sekou\Documents\GitHub\EMS\EMS\Presentation\obj\Debug\Presentation.dll
+C:\Users\Sekou\Documents\GitHub\EMS\EMS\Presentation\obj\Debug\Presentation.pdb
+C:\Users\tly-cc\Desktop\EMS\EMS\Presentation\bin\Debug\Presentation.dll
+C:\Users\tly-cc\Desktop\EMS\EMS\Presentation\bin\Debug\Presentation.pdb
+C:\Users\tly-cc\Desktop\EMS\EMS\Presentation\bin\Debug\AllEmployees.dll
+C:\Users\tly-cc\Desktop\EMS\EMS\Presentation\bin\Debug\TheCompany.dll
+C:\Users\tly-cc\Desktop\EMS\EMS\Presentation\bin\Debug\Supporting.dll
+C:\Users\tly-cc\Desktop\EMS\EMS\Presentation\bin\Debug\AllEmployees.pdb
+C:\Users\tly-cc\Desktop\EMS\EMS\Presentation\bin\Debug\TheCompany.pdb
+C:\Users\tly-cc\Desktop\EMS\EMS\Presentation\bin\Debug\Supporting.pdb
+C:\Users\tly-cc\Desktop\EMS\EMS\Presentation\obj\Debug\Presentation.csprojResolveAssemblyReference.cache
+C:\Users\tly-cc\Desktop\EMS\EMS\Presentation\obj\Debug\Presentation.dll
+C:\Users\tly-cc\Desktop\EMS\EMS\Presentation\obj\Debug\Presentation.pdb

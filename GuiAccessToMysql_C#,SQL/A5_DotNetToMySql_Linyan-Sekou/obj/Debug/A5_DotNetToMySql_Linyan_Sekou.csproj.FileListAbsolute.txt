@@ -1,0 +1,9 @@
+C:\Users\Linyan Li\Desktop\A5_DotNetToMySql_Linyan-Sekou\A5_DotNetToMySql_Linyan-Sekou\obj\Debug\A5_DotNetToMySql.MainWindow.resources
+C:\Users\Linyan Li\Desktop\A5_DotNetToMySql_Linyan-Sekou\A5_DotNetToMySql_Linyan-Sekou\obj\Debug\A5_DotNetToMySql_Linyan_Sekou.csproj.GenerateResource.Cache
+C:\Users\Linyan Li\Desktop\A5_DotNetToMySql_Linyan-Sekou\A5_DotNetToMySql_Linyan-Sekou\bin\Debug\A5_DotNetToMySql.exe.config
+C:\Users\Linyan Li\Desktop\A5_DotNetToMySql_Linyan-Sekou\A5_DotNetToMySql_Linyan-Sekou\bin\Debug\A5_DotNetToMySql.exe
+C:\Users\Linyan Li\Desktop\A5_DotNetToMySql_Linyan-Sekou\A5_DotNetToMySql_Linyan-Sekou\bin\Debug\A5_DotNetToMySql.pdb
+C:\Users\Linyan Li\Desktop\A5_DotNetToMySql_Linyan-Sekou\A5_DotNetToMySql_Linyan-Sekou\obj\Debug\A5_DotNetToMySql.Properties.Resources.resources
+C:\Users\Linyan Li\Desktop\A5_DotNetToMySql_Linyan-Sekou\A5_DotNetToMySql_Linyan-Sekou\obj\Debug\A5_DotNetToMySql.exe
+C:\Users\Linyan Li\Desktop\A5_DotNetToMySql_Linyan-Sekou\A5_DotNetToMySql_Linyan-Sekou\obj\Debug\A5_DotNetToMySql.pdb
+C:\Users\Linyan Li\Desktop\A5_DotNetToMySql_Linyan-Sekou\A5_DotNetToMySql_Linyan-Sekou\obj\Debug\A5_DotNetToMySql_Linyan_Sekou.csprojResolveAssemblyReference.cache

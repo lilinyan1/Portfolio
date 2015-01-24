@@ -1,0 +1,14 @@
+C:\Users\lli-cc\Desktop\A3\Assignment-3\UnitTest\obj\Debug\Functions_UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\lli-cc\Desktop\A3\Assignment-3\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\lli-cc\Desktop\A3\Assignment-3\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\lli-cc\Desktop\A3\Assignment-3\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\lli-cc\Desktop\A3\Assignment-3\UnitTest\bin\Debug\Functions.dll
+C:\Users\lli-cc\Desktop\A3\Assignment-3\UnitTest\bin\Debug\Functions.pdb
+C:\Users\lli-cc\Desktop\A3\Assignment-3\UnitTest\obj\Debug\UnitTest.pdb
+C:\Users\Bzhuang-cc\Desktop\becky-s-repository\Assignment-3\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\Bzhuang-cc\Desktop\becky-s-repository\Assignment-3\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\Bzhuang-cc\Desktop\becky-s-repository\Assignment-3\UnitTest\bin\Debug\Functions.dll
+C:\Users\Bzhuang-cc\Desktop\becky-s-repository\Assignment-3\UnitTest\bin\Debug\Functions.pdb
+C:\Users\Bzhuang-cc\Desktop\becky-s-repository\Assignment-3\UnitTest\obj\Debug\Functions_UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Bzhuang-cc\Desktop\becky-s-repository\Assignment-3\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\Bzhuang-cc\Desktop\becky-s-repository\Assignment-3\UnitTest\obj\Debug\UnitTest.pdb

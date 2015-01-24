@@ -1,0 +1,171 @@
+\hypertarget{class_the_company_1_1_container}{\section{The\-Company.\-Container Class Reference}
+\label{class_the_company_1_1_container}\index{The\-Company.\-Container@{The\-Company.\-Container}}
+}
+
+
+The \hyperlink{class_the_company_1_1_container}{Container} class keeps all the employees in the company.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_the_company_1_1_container_afc057ed3a9764d876c11d501912bf107}{load\-Data} ()
+\begin{DoxyCompactList}\small\item\em This function read dbfile and load all the employee to employeelist. \end{DoxyCompactList}\item 
+bool \hyperlink{class_the_company_1_1_container_a112c52144a5767df15b96d58bcc7482e}{save\-Data} ()
+\begin{DoxyCompactList}\small\item\em This function save all the employees in the container to a db file. \end{DoxyCompactList}\item 
+bool \hyperlink{class_the_company_1_1_container_a2e99d2eb72d53b3327ecc94ec2fa463b}{add} (\hyperlink{class_all_employees_1_1_employee}{Employee} employee)
+\begin{DoxyCompactList}\small\item\em This function add a valiad employee to container. \end{DoxyCompactList}\item 
+bool \hyperlink{class_the_company_1_1_container_a0868a215e36122b268859bed3b4f182f}{remove} (\hyperlink{class_all_employees_1_1_employee}{Employee} employee)
+\begin{DoxyCompactList}\small\item\em This function remove a employee from container. \end{DoxyCompactList}\item 
+bool \hyperlink{class_the_company_1_1_container_aa5bf9dd742c1f1f828cf8428e9e8141d}{modify} (\hyperlink{class_all_employees_1_1_employee}{Employee} employee)
+\begin{DoxyCompactList}\small\item\em This function reset the employee in the container. \end{DoxyCompactList}\item 
+void \hyperlink{class_the_company_1_1_container_ac99ade35772a6273d21a011fea667387}{traverse\-Employee} ()
+\begin{DoxyCompactList}\small\item\em This function print every employee's message in the container. \end{DoxyCompactList}\item 
+\hyperlink{class_all_employees_1_1_employee}{Employee} \hyperlink{class_the_company_1_1_container_a8e9676f518adefcfe493b34cc1bdb354}{search} (string sin)
+\begin{DoxyCompactList}\small\item\em This function search a employee by its S\-I\-N. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_the_company_1_1_container}{Container} class keeps all the employees in the company. 
+
+You can add employee, remove employee, modify employee and search employee 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_the_company_1_1_container_a2e99d2eb72d53b3327ecc94ec2fa463b}{\index{The\-Company\-::\-Container@{The\-Company\-::\-Container}!add@{add}}
+\index{add@{add}!TheCompany::Container@{The\-Company\-::\-Container}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}bool The\-Company.\-Container.\-add (
+\begin{DoxyParamCaption}
+\item[{{\bf Employee}}]{employee}
+\end{DoxyParamCaption}
+)}}\label{class_the_company_1_1_container_a2e99d2eb72d53b3327ecc94ec2fa463b}
+
+
+This function add a valiad employee to container. 
+
+{\bfseries Details} 
+\begin{DoxyParams}{Parameters}
+{\em employee} & -\/ {\bfseries \hyperlink{namespace_employee}{Employee} } -\/the employee need to be add \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\bfseries bool} true if successful, false if successful 
+\end{DoxyReturn}
+\hypertarget{class_the_company_1_1_container_afc057ed3a9764d876c11d501912bf107}{\index{The\-Company\-::\-Container@{The\-Company\-::\-Container}!load\-Data@{load\-Data}}
+\index{load\-Data@{load\-Data}!TheCompany::Container@{The\-Company\-::\-Container}}
+\subsubsection[{load\-Data}]{\setlength{\rightskip}{0pt plus 5cm}bool The\-Company.\-Container.\-load\-Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_the_company_1_1_container_afc057ed3a9764d876c11d501912bf107}
+
+
+This function read dbfile and load all the employee to employeelist. 
+
+{\bfseries Details} 
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\hypertarget{class_the_company_1_1_container_aa5bf9dd742c1f1f828cf8428e9e8141d}{\index{The\-Company\-::\-Container@{The\-Company\-::\-Container}!modify@{modify}}
+\index{modify@{modify}!TheCompany::Container@{The\-Company\-::\-Container}}
+\subsubsection[{modify}]{\setlength{\rightskip}{0pt plus 5cm}bool The\-Company.\-Container.\-modify (
+\begin{DoxyParamCaption}
+\item[{{\bf Employee}}]{employee}
+\end{DoxyParamCaption}
+)}}\label{class_the_company_1_1_container_aa5bf9dd742c1f1f828cf8428e9e8141d}
+
+
+This function reset the employee in the container. 
+
+{\bfseries Details} 
+\begin{DoxyParams}{Parameters}
+{\em employee} & -\/ {\bfseries \hyperlink{namespace_employee}{Employee} } -\/the employee need to be reset to the container \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\bfseries bool} true if successful, false if failed 
+\end{DoxyReturn}
+\hypertarget{class_the_company_1_1_container_a0868a215e36122b268859bed3b4f182f}{\index{The\-Company\-::\-Container@{The\-Company\-::\-Container}!remove@{remove}}
+\index{remove@{remove}!TheCompany::Container@{The\-Company\-::\-Container}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}bool The\-Company.\-Container.\-remove (
+\begin{DoxyParamCaption}
+\item[{{\bf Employee}}]{employee}
+\end{DoxyParamCaption}
+)}}\label{class_the_company_1_1_container_a0868a215e36122b268859bed3b4f182f}
+
+
+This function remove a employee from container. 
+
+{\bfseries Details} 
+\begin{DoxyParams}{Parameters}
+{\em employee} & -\/ {\bfseries \hyperlink{namespace_employee}{Employee} } -\/the employee need to be remove \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\bfseries bool} true if successful, false if failed 
+\end{DoxyReturn}
+\hypertarget{class_the_company_1_1_container_a112c52144a5767df15b96d58bcc7482e}{\index{The\-Company\-::\-Container@{The\-Company\-::\-Container}!save\-Data@{save\-Data}}
+\index{save\-Data@{save\-Data}!TheCompany::Container@{The\-Company\-::\-Container}}
+\subsubsection[{save\-Data}]{\setlength{\rightskip}{0pt plus 5cm}bool The\-Company.\-Container.\-save\-Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_the_company_1_1_container_a112c52144a5767df15b96d58bcc7482e}
+
+
+This function save all the employees in the container to a db file. 
+
+{\bfseries Details} 
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\hypertarget{class_the_company_1_1_container_a8e9676f518adefcfe493b34cc1bdb354}{\index{The\-Company\-::\-Container@{The\-Company\-::\-Container}!search@{search}}
+\index{search@{search}!TheCompany::Container@{The\-Company\-::\-Container}}
+\subsubsection[{search}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Employee} The\-Company.\-Container.\-search (
+\begin{DoxyParamCaption}
+\item[{string}]{sin}
+\end{DoxyParamCaption}
+)}}\label{class_the_company_1_1_container_a8e9676f518adefcfe493b34cc1bdb354}
+
+
+This function search a employee by its S\-I\-N. 
+
+{\bfseries Details} 
+\begin{DoxyParams}{Parameters}
+{\em sin} & -\/ {\bfseries string } -\/the employee's S\-I\-N number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+employee -\/ {\bfseries \hyperlink{namespace_employee}{Employee} } -\/the employee need to be remove 
+\end{DoxyReturn}
+\hypertarget{class_the_company_1_1_container_ac99ade35772a6273d21a011fea667387}{\index{The\-Company\-::\-Container@{The\-Company\-::\-Container}!traverse\-Employee@{traverse\-Employee}}
+\index{traverse\-Employee@{traverse\-Employee}!TheCompany::Container@{The\-Company\-::\-Container}}
+\subsubsection[{traverse\-Employee}]{\setlength{\rightskip}{0pt plus 5cm}void The\-Company.\-Container.\-traverse\-Employee (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_the_company_1_1_container_ac99ade35772a6273d21a011fea667387}
+
+
+This function print every employee's message in the container. 
+
+{\bfseries Details} 
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+E\-M\-S/\-The\-Company/\hyperlink{_container_8cs}{Container.\-cs}\end{DoxyCompactItemize}

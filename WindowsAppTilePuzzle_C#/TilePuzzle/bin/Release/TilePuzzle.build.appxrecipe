@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LINYANLI-PC</Machine>
+    <WindowsUser>Linyan Li</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>82a7ecbc-81ef-47cc-a4a2-e7d6558df87e</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Linyan Li\Desktop\amshar-repo\trunk\TilePuzzle\TilePuzzle\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Linyan Li\Desktop\amshar-repo\trunk\TilePuzzle\TilePuzzle\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Linyan Li\Desktop\amshar-repo\trunk\TilePuzzle\TilePuzzle\bin\Release\TilePuzzle.exe">
+      <PackagePath>TilePuzzle.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linyan Li\Desktop\amshar-repo\trunk\TilePuzzle\TilePuzzle\NotificationsExtensions\bin\Release\NotificationsExtensions.winmd">
+      <PackagePath>NotificationsExtensions.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linyan Li\Desktop\amshar-repo\trunk\TilePuzzle\TilePuzzle\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linyan Li\Desktop\amshar-repo\trunk\TilePuzzle\TilePuzzle\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linyan Li\Desktop\amshar-repo\trunk\TilePuzzle\TilePuzzle\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linyan Li\Desktop\amshar-repo\trunk\TilePuzzle\TilePuzzle\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linyan Li\Desktop\amshar-repo\trunk\TilePuzzle\TilePuzzle\Assets\NumberPuzzle1.jpg">
+      <PackagePath>Assets\NumberPuzzle1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linyan Li\Desktop\amshar-repo\trunk\TilePuzzle\TilePuzzle\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linyan Li\Desktop\amshar-repo\trunk\TilePuzzle\TilePuzzle\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linyan Li\Desktop\amshar-repo\trunk\TilePuzzle\TilePuzzle\bin\Release\TilePuzzle.xr.xml">
+      <PackagePath>TilePuzzle.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linyan Li\Desktop\amshar-repo\trunk\TilePuzzle\TilePuzzle\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

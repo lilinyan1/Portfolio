@@ -1,0 +1,17 @@
+E:\new\SQ\A3\Assignment-3\Functions\bin\Debug\Functions.dll
+E:\new\SQ\A3\Assignment-3\Functions\bin\Debug\Functions.pdb
+E:\new\SQ\A3\Assignment-3\Functions\obj\Debug\Functions.csprojResolveAssemblyReference.cache
+E:\new\SQ\A3\Assignment-3\Functions\obj\Debug\Functions.dll
+E:\new\SQ\A3\Assignment-3\Functions\obj\Debug\Functions.pdb
+F:\new\SQ\A3\Assignment-3\Functions\bin\Debug\Functions.dll
+F:\new\SQ\A3\Assignment-3\Functions\bin\Debug\Functions.pdb
+F:\new\SQ\A3\Assignment-3\Functions\obj\Debug\Functions.dll
+F:\new\SQ\A3\Assignment-3\Functions\obj\Debug\Functions.pdb
+C:\Users\lli-cc\Desktop\A3\Assignment-3\Functions\bin\Debug\Functions.dll
+C:\Users\lli-cc\Desktop\A3\Assignment-3\Functions\bin\Debug\Functions.pdb
+C:\Users\lli-cc\Desktop\A3\Assignment-3\Functions\obj\Debug\Functions.dll
+C:\Users\lli-cc\Desktop\A3\Assignment-3\Functions\obj\Debug\Functions.pdb
+C:\Users\Bzhuang-cc\Desktop\becky-s-repository\Assignment-3\Functions\bin\Debug\Functions.dll
+C:\Users\Bzhuang-cc\Desktop\becky-s-repository\Assignment-3\Functions\bin\Debug\Functions.pdb
+C:\Users\Bzhuang-cc\Desktop\becky-s-repository\Assignment-3\Functions\obj\Debug\Functions.dll
+C:\Users\Bzhuang-cc\Desktop\becky-s-repository\Assignment-3\Functions\obj\Debug\Functions.pdb

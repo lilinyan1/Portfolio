@@ -1,0 +1,128 @@
+\hypertarget{class_supporting_1_1_file_i_o}{\section{Supporting.\-File\-I\-O Class Reference}
+\label{class_supporting_1_1_file_i_o}\index{Supporting.\-File\-I\-O@{Supporting.\-File\-I\-O}}
+}
+
+
+This class contains the methods necessary to open (for reading or writing) and close \hyperlink{namespace_employee}{Employee} D\-Base files and other files.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_supporting_1_1_file_i_o_add590b89b02ab30214efb1d184ebdced}{Create\-File} (string file\-Name, string folder\-Name, string file\-Filter)
+\begin{DoxyCompactList}\small\item\em Creates specified file and folder if they don't exist. \end{DoxyCompactList}\item 
+Stream\-Writer \hyperlink{class_supporting_1_1_file_i_o_aa2107a951a106b513da728a1c5184cf8}{Get\-Stream\-Writer} (string file\-Name, string folder\-Name, string file\-Filter)
+\begin{DoxyCompactList}\small\item\em Creates specified file and folder if they don't exist. \end{DoxyCompactList}\item 
+bool \hyperlink{class_supporting_1_1_file_i_o_a1ff12544e3eb1b3f3bc53fb3b91cd614}{Read\-Database} (ref Dictionary$<$ string, \hyperlink{class_all_employees_1_1_employee}{Employee} $>$ employees)
+\begin{DoxyCompactList}\small\item\em Read the database file, parse it, and store different types of employees into passed in the passed in data container. \end{DoxyCompactList}\item 
+bool \hyperlink{class_supporting_1_1_file_i_o_aaf04c6df9d39b8d649dfc73727400041}{Write\-Database} (Dictionary$<$ string, \hyperlink{class_all_employees_1_1_employee}{Employee} $>$ employees)
+\begin{DoxyCompactList}\small\item\em Read the data container that got passed in, then store different types of employees into the data base file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class contains the methods necessary to open (for reading or writing) and close \hyperlink{namespace_employee}{Employee} D\-Base files and other files. 
+
+try-\/catch statements are used to detect exceptions, in which cases, user will be notified 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_supporting_1_1_file_i_o_add590b89b02ab30214efb1d184ebdced}{\index{Supporting\-::\-File\-I\-O@{Supporting\-::\-File\-I\-O}!Create\-File@{Create\-File}}
+\index{Create\-File@{Create\-File}!Supporting::FileIO@{Supporting\-::\-File\-I\-O}}
+\subsubsection[{Create\-File}]{\setlength{\rightskip}{0pt plus 5cm}bool Supporting.\-File\-I\-O.\-Create\-File (
+\begin{DoxyParamCaption}
+\item[{string}]{file\-Name, }
+\item[{string}]{folder\-Name, }
+\item[{string}]{file\-Filter}
+\end{DoxyParamCaption}
+)}}\label{class_supporting_1_1_file_i_o_add590b89b02ab30214efb1d184ebdced}
+
+
+Creates specified file and folder if they don't exist. 
+
+{\bfseries Details} 
+\begin{DoxyParams}{Parameters}
+{\em file\-Name} & -\/ {\bfseries string } -\/the name of the file \\
+\hline
+{\em folder\-Name} & -\/ {\bfseries string } -\/the name of the folder, folder should be under the same directory the executable locates \\
+\hline
+{\em file\-Filter} & -\/ {\bfseries string } -\/file's extention, e.\-g. \char`\"{}.\-csv\char`\"{} for d\-Base; \char`\"{}.\-log\char`\"{} for log \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true {\bfseries bool } -\/ if file and folder are created successfully 
+
+false {\bfseries bool } -\/ if file and folder are not created 
+\end{DoxyReturn}
+\hypertarget{class_supporting_1_1_file_i_o_aa2107a951a106b513da728a1c5184cf8}{\index{Supporting\-::\-File\-I\-O@{Supporting\-::\-File\-I\-O}!Get\-Stream\-Writer@{Get\-Stream\-Writer}}
+\index{Get\-Stream\-Writer@{Get\-Stream\-Writer}!Supporting::FileIO@{Supporting\-::\-File\-I\-O}}
+\subsubsection[{Get\-Stream\-Writer}]{\setlength{\rightskip}{0pt plus 5cm}Stream\-Writer Supporting.\-File\-I\-O.\-Get\-Stream\-Writer (
+\begin{DoxyParamCaption}
+\item[{string}]{file\-Name, }
+\item[{string}]{folder\-Name, }
+\item[{string}]{file\-Filter}
+\end{DoxyParamCaption}
+)}}\label{class_supporting_1_1_file_i_o_aa2107a951a106b513da728a1c5184cf8}
+
+
+Creates specified file and folder if they don't exist. 
+
+{\bfseries Details} Must create file by using \hyperlink{class_supporting_1_1_file_i_o_add590b89b02ab30214efb1d184ebdced}{Create\-File()} before using \hyperlink{class_supporting_1_1_file_i_o_aa2107a951a106b513da728a1c5184cf8}{Get\-Stream\-Writer()} 
+\begin{DoxyParams}{Parameters}
+{\em file\-Name} & -\/ {\bfseries string } -\/ specify the name of the file of which the stream writer is returned \\
+\hline
+{\em folder\-Name} & -\/ {\bfseries string } -\/the name of the folder where file is put, folder should be under the same directory the executable locates \\
+\hline
+{\em file\-Filter} & -\/ {\bfseries string } -\/the file's extention, e.\-g. \char`\"{}.\-csv\char`\"{} for d\-Base; \char`\"{}.\-log\char`\"{} for log \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+sr {\bfseries Stream\-Reader } -\/ when the stream writer of the specified is successfuly achieved 
+
+null if the stream writer is not achieved 
+\end{DoxyReturn}
+\hypertarget{class_supporting_1_1_file_i_o_a1ff12544e3eb1b3f3bc53fb3b91cd614}{\index{Supporting\-::\-File\-I\-O@{Supporting\-::\-File\-I\-O}!Read\-Database@{Read\-Database}}
+\index{Read\-Database@{Read\-Database}!Supporting::FileIO@{Supporting\-::\-File\-I\-O}}
+\subsubsection[{Read\-Database}]{\setlength{\rightskip}{0pt plus 5cm}bool Supporting.\-File\-I\-O.\-Read\-Database (
+\begin{DoxyParamCaption}
+\item[{ref Dictionary$<$ string, {\bf Employee} $>$}]{employees}
+\end{DoxyParamCaption}
+)}}\label{class_supporting_1_1_file_i_o_a1ff12544e3eb1b3f3bc53fb3b91cd614}
+
+
+Read the database file, parse it, and store different types of employees into passed in the passed in data container. 
+
+{\bfseries Details} 
+\begin{DoxyParams}{Parameters}
+{\em employees} & -\/ {\bfseries Dictionary$<$string, Employee$>$} -\/ the data container where data is stored \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true -\/ {\bfseries bool } -\/ when the database file was successfully written to the database file 
+
+false -\/ {\bfseries bool } -\/ when error occured, the database file was not successfully updated 
+\end{DoxyReturn}
+\hypertarget{class_supporting_1_1_file_i_o_aaf04c6df9d39b8d649dfc73727400041}{\index{Supporting\-::\-File\-I\-O@{Supporting\-::\-File\-I\-O}!Write\-Database@{Write\-Database}}
+\index{Write\-Database@{Write\-Database}!Supporting::FileIO@{Supporting\-::\-File\-I\-O}}
+\subsubsection[{Write\-Database}]{\setlength{\rightskip}{0pt plus 5cm}bool Supporting.\-File\-I\-O.\-Write\-Database (
+\begin{DoxyParamCaption}
+\item[{Dictionary$<$ string, {\bf Employee} $>$}]{employees}
+\end{DoxyParamCaption}
+)}}\label{class_supporting_1_1_file_i_o_aaf04c6df9d39b8d649dfc73727400041}
+
+
+Read the data container that got passed in, then store different types of employees into the data base file. 
+
+{\bfseries Details} 
+\begin{DoxyParams}{Parameters}
+{\em employees} & -\/ {\bfseries Dictionary$<$string, Employee$>$} -\/ data container where data is stored \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true -\/ {\bfseries bool } -\/ when the data container was successfully written to the data base file, the data base file name and its folder name are specified in the class private attributes\-: d\-Base\-File\-Name, d\-Base\-Folder\-Name, d\-Base\-File\-Extension. The data base folder located under the same folder of the executable 
+
+false -\/ {\bfseries bool } -\/ when error occured, the database file was not successfully updated or created 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+E\-M\-S/\-Supporting/\hyperlink{_file_i_o_8cs}{File\-I\-O.\-cs}\end{DoxyCompactItemize}

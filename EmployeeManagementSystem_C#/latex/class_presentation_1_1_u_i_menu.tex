@@ -1,0 +1,278 @@
+\hypertarget{class_presentation_1_1_u_i_menu}{\section{Presentation.\-U\-I\-Menu Class Reference}
+\label{class_presentation_1_1_u_i_menu}\index{Presentation.\-U\-I\-Menu@{Presentation.\-U\-I\-Menu}}
+}
+
+
+This class provides a front-\/end interface to the rest of the class libraries.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_presentation_1_1_u_i_menu_a4e34e326fa4b3ba8887d3877eb7a846f}{Menu\-Run} ()
+\begin{DoxyCompactList}\small\item\em This method controls the flow of processes based on user input. \end{DoxyCompactList}\item 
+int \hyperlink{class_presentation_1_1_u_i_menu_a7f962e64d48b9d10eda69ba385413a10}{Main\-Menu} ()
+\begin{DoxyCompactList}\small\item\em This method produces a menu of options and returns a valid input choice. \end{DoxyCompactList}\item 
+int \hyperlink{class_presentation_1_1_u_i_menu_aea2b74624816fae85bb9df7283ba2987}{File\-Management\-Menu} ()
+\begin{DoxyCompactList}\small\item\em This method produces a menu of options and returns a valid input choice. \end{DoxyCompactList}\item 
+int \hyperlink{class_presentation_1_1_u_i_menu_ad65730b7a0580f650730eb0b4a7b861f}{Employee\-Management\-Menu} ()
+\begin{DoxyCompactList}\small\item\em This method produces a menu of options and returns a valid input choice. \end{DoxyCompactList}\item 
+int \hyperlink{class_presentation_1_1_u_i_menu_a514c2390e6eed7254727637fe0172286}{Employee\-Details\-Menu} ()
+\begin{DoxyCompactList}\small\item\em This method produces a menu of options and returns a valid input choice. \end{DoxyCompactList}\item 
+void \hyperlink{class_presentation_1_1_u_i_menu_a7c07cacad1ee89f648e1ae27df3c862b}{Create\-Employee} (int n\-Employee\-Type)
+\begin{DoxyCompactList}\small\item\em This method creates a new employee and prompts user for attribute values. \end{DoxyCompactList}\item 
+void \hyperlink{class_presentation_1_1_u_i_menu_ae43fc043b977d70007d01b20ada8d532}{Load\-D\-Base} ()
+\begin{DoxyCompactList}\small\item\em This method uses the \hyperlink{namespace_supporting}{Supporting} class library to load a database from file. \end{DoxyCompactList}\item 
+void \hyperlink{class_presentation_1_1_u_i_menu_a94a2ad97db7a33ea6d46fd857f7a917e}{Save\-D\-Base} ()
+\begin{DoxyCompactList}\small\item\em This method uses the \hyperlink{namespace_supporting}{Supporting} class library to save a database into a file. \end{DoxyCompactList}\item 
+void \hyperlink{class_presentation_1_1_u_i_menu_a11ff77505d7c1172b450204ebaa27d4f}{Display\-Employee\-Set} ()
+\begin{DoxyCompactList}\small\item\em This method displays all employees within the database (valid and invalid). \end{DoxyCompactList}\item 
+void \hyperlink{class_presentation_1_1_u_i_menu_aa4d5c581279a835c28680355f8ab21d7}{Modify\-Employee} ()
+\begin{DoxyCompactList}\small\item\em This method will modify an existing employee. \end{DoxyCompactList}\item 
+void \hyperlink{class_presentation_1_1_u_i_menu_a24af95820f9c6a544542b7f262013692}{Remove\-Employee} ()
+\begin{DoxyCompactList}\small\item\em This method will remove an existing employee found by a social insurance number. \end{DoxyCompactList}\item 
+bool \hyperlink{class_presentation_1_1_u_i_menu_a39859e6f0c0f965d5d941381249833c9}{End\-Inputs} ()
+\begin{DoxyCompactList}\small\item\em This method produces a menu of options and returns a valid input choice. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class provides a front-\/end interface to the rest of the class libraries. 
+
+Gathers user inputs and invokes the necessary methods to meet commands. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_presentation_1_1_u_i_menu_a7c07cacad1ee89f648e1ae27df3c862b}{\index{Presentation\-::\-U\-I\-Menu@{Presentation\-::\-U\-I\-Menu}!Create\-Employee@{Create\-Employee}}
+\index{Create\-Employee@{Create\-Employee}!Presentation::UIMenu@{Presentation\-::\-U\-I\-Menu}}
+\subsubsection[{Create\-Employee}]{\setlength{\rightskip}{0pt plus 5cm}void Presentation.\-U\-I\-Menu.\-Create\-Employee (
+\begin{DoxyParamCaption}
+\item[{int}]{n\-Employee\-Type}
+\end{DoxyParamCaption}
+)}}\label{class_presentation_1_1_u_i_menu_a7c07cacad1ee89f648e1ae27df3c862b}
+
+
+This method creates a new employee and prompts user for attribute values. 
+
+{\bfseries Details} -\/ \hyperlink{namespace_employee}{Employee} class validates all inputs through its setter methods. This method simply collects information and forwards it to the employee class. Once employee creation is complete, add to database. 
+\begin{DoxyParams}{Parameters}
+{\em n\-Employee\-Type} & -\/ {\bfseries int} -\/ Value passed in to determine which Employee\-Type is required \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\hypertarget{class_presentation_1_1_u_i_menu_a11ff77505d7c1172b450204ebaa27d4f}{\index{Presentation\-::\-U\-I\-Menu@{Presentation\-::\-U\-I\-Menu}!Display\-Employee\-Set@{Display\-Employee\-Set}}
+\index{Display\-Employee\-Set@{Display\-Employee\-Set}!Presentation::UIMenu@{Presentation\-::\-U\-I\-Menu}}
+\subsubsection[{Display\-Employee\-Set}]{\setlength{\rightskip}{0pt plus 5cm}void Presentation.\-U\-I\-Menu.\-Display\-Employee\-Set (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_presentation_1_1_u_i_menu_a11ff77505d7c1172b450204ebaa27d4f}
+
+
+This method displays all employees within the database (valid and invalid). 
+
+{\bfseries Details} -\/ Employees will be displayed along with their full attributes, one employee at a time through the database list. The Details method is used from the All\-Employee class. 
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\hypertarget{class_presentation_1_1_u_i_menu_a514c2390e6eed7254727637fe0172286}{\index{Presentation\-::\-U\-I\-Menu@{Presentation\-::\-U\-I\-Menu}!Employee\-Details\-Menu@{Employee\-Details\-Menu}}
+\index{Employee\-Details\-Menu@{Employee\-Details\-Menu}!Presentation::UIMenu@{Presentation\-::\-U\-I\-Menu}}
+\subsubsection[{Employee\-Details\-Menu}]{\setlength{\rightskip}{0pt plus 5cm}int Presentation.\-U\-I\-Menu.\-Employee\-Details\-Menu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_presentation_1_1_u_i_menu_a514c2390e6eed7254727637fe0172286}
+
+
+This method produces a menu of options and returns a valid input choice. 
+
+{\bfseries Details} -\/ E\-M\-P\-L\-O\-Y\-E\-E D\-E\-T\-A\-I\-L\-S M\-E\-N\-U\-: C\-R\-E\-A\-T\-E or M\-O\-D\-I\-F\-Y an existing employee, based on employee T\-Y\-P\-E. Create\-Employee uses this return value to acquire employee class attributes. Modify\-Employee uses this return value to modify the employee type. 
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Int32.\-Parse(ck\-Info.\-Key\-Char.\-To\-String()) -\/ {\bfseries int} -\/ integer representation of keystroke input 
+\end{DoxyReturn}
+\hypertarget{class_presentation_1_1_u_i_menu_ad65730b7a0580f650730eb0b4a7b861f}{\index{Presentation\-::\-U\-I\-Menu@{Presentation\-::\-U\-I\-Menu}!Employee\-Management\-Menu@{Employee\-Management\-Menu}}
+\index{Employee\-Management\-Menu@{Employee\-Management\-Menu}!Presentation::UIMenu@{Presentation\-::\-U\-I\-Menu}}
+\subsubsection[{Employee\-Management\-Menu}]{\setlength{\rightskip}{0pt plus 5cm}int Presentation.\-U\-I\-Menu.\-Employee\-Management\-Menu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_presentation_1_1_u_i_menu_ad65730b7a0580f650730eb0b4a7b861f}
+
+
+This method produces a menu of options and returns a valid input choice. 
+
+{\bfseries Details} -\/ E\-M\-P\-L\-O\-Y\-E\-E M\-A\-N\-A\-G\-E\-M\-E\-N\-T M\-E\-N\-U\-: View employee database, create new employee, modify/remove existing employee. Viewing employee database traverses the container and uses the Details method to output information. Create\-Employee is used to handle prompts for employee attributes required to build an employee. Modify \& Remove an existing employee uses the Container's search method to select and modify/remove employee. 
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Int32.\-Parse(ck\-Info.\-Key\-Char.\-To\-String()) -\/ {\bfseries int} -\/ integer representation of keystroke input 
+\end{DoxyReturn}
+\hypertarget{class_presentation_1_1_u_i_menu_a39859e6f0c0f965d5d941381249833c9}{\index{Presentation\-::\-U\-I\-Menu@{Presentation\-::\-U\-I\-Menu}!End\-Inputs@{End\-Inputs}}
+\index{End\-Inputs@{End\-Inputs}!Presentation::UIMenu@{Presentation\-::\-U\-I\-Menu}}
+\subsubsection[{End\-Inputs}]{\setlength{\rightskip}{0pt plus 5cm}bool Presentation.\-U\-I\-Menu.\-End\-Inputs (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_presentation_1_1_u_i_menu_a39859e6f0c0f965d5d941381249833c9}
+
+
+This method produces a menu of options and returns a valid input choice. 
+
+{\bfseries Details} -\/ E\-M\-P\-L\-O\-Y\-E\-E M\-A\-N\-A\-G\-E\-M\-E\-N\-T M\-E\-N\-U\-: View employee database, create new employee, modify/remove existing employee. Viewing employee database traverses the container and uses the Details method to output information. Create\-Employee is used to handle prompts for employee attributes required to build an employee. Modify \& Remove an existing employee uses the Container's search method to select and modify/remove employee. 
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Int32.\-Parse(ck\-Info.\-Key\-Char.\-To\-String()) -\/ {\bfseries int} -\/ integer representation of keystroke input 
+\end{DoxyReturn}
+\hypertarget{class_presentation_1_1_u_i_menu_aea2b74624816fae85bb9df7283ba2987}{\index{Presentation\-::\-U\-I\-Menu@{Presentation\-::\-U\-I\-Menu}!File\-Management\-Menu@{File\-Management\-Menu}}
+\index{File\-Management\-Menu@{File\-Management\-Menu}!Presentation::UIMenu@{Presentation\-::\-U\-I\-Menu}}
+\subsubsection[{File\-Management\-Menu}]{\setlength{\rightskip}{0pt plus 5cm}int Presentation.\-U\-I\-Menu.\-File\-Management\-Menu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_presentation_1_1_u_i_menu_aea2b74624816fae85bb9df7283ba2987}
+
+
+This method produces a menu of options and returns a valid input choice. 
+
+{\bfseries Details} -\/ F\-I\-L\-E M\-A\-N\-A\-G\-E\-M\-E\-N\-T M\-E\-N\-U\-: To load or to save a database from or to a file. Uses the \hyperlink{namespace_supporting}{Supporting} class library to perform load/saves. Load\-D\-Base \& Save\-D\-Base methods used to perform input. 
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Int32.\-Parse(ck\-Info.\-Key\-Char.\-To\-String()) -\/ {\bfseries int} -\/ integer representation of keystroke input 
+\end{DoxyReturn}
+\hypertarget{class_presentation_1_1_u_i_menu_ae43fc043b977d70007d01b20ada8d532}{\index{Presentation\-::\-U\-I\-Menu@{Presentation\-::\-U\-I\-Menu}!Load\-D\-Base@{Load\-D\-Base}}
+\index{Load\-D\-Base@{Load\-D\-Base}!Presentation::UIMenu@{Presentation\-::\-U\-I\-Menu}}
+\subsubsection[{Load\-D\-Base}]{\setlength{\rightskip}{0pt plus 5cm}void Presentation.\-U\-I\-Menu.\-Load\-D\-Base (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_presentation_1_1_u_i_menu_ae43fc043b977d70007d01b20ada8d532}
+
+
+This method uses the \hyperlink{namespace_supporting}{Supporting} class library to load a database from file. 
+
+{\bfseries Details} -\/ The File\-I\-O class contains methods to open and read the database from file. These will be invoked and the database will be saved into the c\-Container attribute above. 
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\hypertarget{class_presentation_1_1_u_i_menu_a7f962e64d48b9d10eda69ba385413a10}{\index{Presentation\-::\-U\-I\-Menu@{Presentation\-::\-U\-I\-Menu}!Main\-Menu@{Main\-Menu}}
+\index{Main\-Menu@{Main\-Menu}!Presentation::UIMenu@{Presentation\-::\-U\-I\-Menu}}
+\subsubsection[{Main\-Menu}]{\setlength{\rightskip}{0pt plus 5cm}int Presentation.\-U\-I\-Menu.\-Main\-Menu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_presentation_1_1_u_i_menu_a7f962e64d48b9d10eda69ba385413a10}
+
+
+This method produces a menu of options and returns a valid input choice. 
+
+{\bfseries Details} -\/ M\-A\-I\-N M\-E\-N\-U\-: Options are to manage the database files or manage employees. Both options produce to a new menu. 
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Int32.\-Parse(ck\-Info.\-Key\-Char.\-To\-String()) -\/ {\bfseries int} -\/ integer representation of keystroke input 
+\end{DoxyReturn}
+\hypertarget{class_presentation_1_1_u_i_menu_a4e34e326fa4b3ba8887d3877eb7a846f}{\index{Presentation\-::\-U\-I\-Menu@{Presentation\-::\-U\-I\-Menu}!Menu\-Run@{Menu\-Run}}
+\index{Menu\-Run@{Menu\-Run}!Presentation::UIMenu@{Presentation\-::\-U\-I\-Menu}}
+\subsubsection[{Menu\-Run}]{\setlength{\rightskip}{0pt plus 5cm}void Presentation.\-U\-I\-Menu.\-Menu\-Run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_presentation_1_1_u_i_menu_a4e34e326fa4b3ba8887d3877eb7a846f}
+
+
+This method controls the flow of processes based on user input. 
+
+by providing appropriate textual user-\/interfaces.
+
+{\bfseries Details} -\/ The user selects options that are laid out in menus. This method performs the input's actions while providing a robust user interface to navigate through the system's functionalities. 
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\hypertarget{class_presentation_1_1_u_i_menu_aa4d5c581279a835c28680355f8ab21d7}{\index{Presentation\-::\-U\-I\-Menu@{Presentation\-::\-U\-I\-Menu}!Modify\-Employee@{Modify\-Employee}}
+\index{Modify\-Employee@{Modify\-Employee}!Presentation::UIMenu@{Presentation\-::\-U\-I\-Menu}}
+\subsubsection[{Modify\-Employee}]{\setlength{\rightskip}{0pt plus 5cm}void Presentation.\-U\-I\-Menu.\-Modify\-Employee (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_presentation_1_1_u_i_menu_aa4d5c581279a835c28680355f8ab21d7}
+
+
+This method will modify an existing employee. 
+
+{\bfseries Details} -\/ User is prompt for a specific employee type to modify. If employee exists, proceed to modify the employee. 
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\hypertarget{class_presentation_1_1_u_i_menu_a24af95820f9c6a544542b7f262013692}{\index{Presentation\-::\-U\-I\-Menu@{Presentation\-::\-U\-I\-Menu}!Remove\-Employee@{Remove\-Employee}}
+\index{Remove\-Employee@{Remove\-Employee}!Presentation::UIMenu@{Presentation\-::\-U\-I\-Menu}}
+\subsubsection[{Remove\-Employee}]{\setlength{\rightskip}{0pt plus 5cm}void Presentation.\-U\-I\-Menu.\-Remove\-Employee (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_presentation_1_1_u_i_menu_a24af95820f9c6a544542b7f262013692}
+
+
+This method will remove an existing employee found by a social insurance number. 
+
+{\bfseries Details} -\/ The Container class found in \hyperlink{namespace_the_company}{The\-Company} class library provides a method to search for an employee given a S\-I\-N. Once found, user is prompt to confirm removal of employee. 
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\hypertarget{class_presentation_1_1_u_i_menu_a94a2ad97db7a33ea6d46fd857f7a917e}{\index{Presentation\-::\-U\-I\-Menu@{Presentation\-::\-U\-I\-Menu}!Save\-D\-Base@{Save\-D\-Base}}
+\index{Save\-D\-Base@{Save\-D\-Base}!Presentation::UIMenu@{Presentation\-::\-U\-I\-Menu}}
+\subsubsection[{Save\-D\-Base}]{\setlength{\rightskip}{0pt plus 5cm}void Presentation.\-U\-I\-Menu.\-Save\-D\-Base (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_presentation_1_1_u_i_menu_a94a2ad97db7a33ea6d46fd857f7a917e}
+
+
+This method uses the \hyperlink{namespace_supporting}{Supporting} class library to save a database into a file. 
+
+{\bfseries Details} -\/ The File\-I\-O class contains methods to write and save a database to a file. These will be invoked and c\-Container database will be saved into a file. 
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+E\-M\-S/\-Presentation/\hyperlink{_u_i_menu_8cs}{U\-I\-Menu.\-cs}\end{DoxyCompactItemize}

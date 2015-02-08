@@ -1,0 +1,346 @@
+\hypertarget{class_all_employees_1_1_contract_employee}{\section{All\-Employees.\-Contract\-Employee Class Reference}
+\label{class_all_employees_1_1_contract_employee}\index{All\-Employees.\-Contract\-Employee@{All\-Employees.\-Contract\-Employee}}
+}
+
+
+to model the attributes and behaviour of an \hyperlink{class_all_employees_1_1_contract_employee}{Contract\-Employee},  
+
+
+
+
+Inherits \hyperlink{class_all_employees_1_1_employee}{All\-Employees.\-Employee}.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_all_employees_1_1_contract_employee_afb78892e913ff2a34aed4d7b78d6c9f7}{Contract\-Employee} ()
+\begin{DoxyCompactList}\small\item\em This function is the constructor of the \hyperlink{class_all_employees_1_1_contract_employee}{Contract\-Employee} and it set the initial value for data members to blank. \end{DoxyCompactList}\item 
+\hyperlink{class_all_employees_1_1_contract_employee_a10cf36cf94500aefd99ae2f1d5f90ed2}{Contract\-Employee} (string con\-Start\-Date, string con\-Stop\-Date, float new\-Amount)
+\begin{DoxyCompactList}\small\item\em This function is the constructor of the \hyperlink{class_all_employees_1_1_contract_employee}{Contract\-Employee} and it set the initial value for data members to parameters. \end{DoxyCompactList}\item 
+\hyperlink{class_all_employees_1_1_contract_employee_a29cd5dedb0769d79da50a7653e056d52}{Contract\-Employee} (string f\-Name, string l\-Name)
+\begin{DoxyCompactList}\small\item\em This function is the constructor of the \hyperlink{class_all_employees_1_1_contract_employee}{Contract\-Employee} and it set the initial value for data members to parameters. \end{DoxyCompactList}\item 
+bool \hyperlink{class_all_employees_1_1_contract_employee_a4c8c59b291072d20de69fbca7de333aa}{Setcontract\-Start\-Date} (string new\-Con\-Start\-Date)
+\begin{DoxyCompactList}\small\item\em This function sets the employee's start date of contract to the parameter passed in. \end{DoxyCompactList}\item 
+bool \hyperlink{class_all_employees_1_1_contract_employee_a13166d1b41e136880ed1840759b243dc}{Setcontract\-Stop\-Date} (string new\-Con\-Stop\-Date)
+\begin{DoxyCompactList}\small\item\em This function sets the employee's stop date of contract to the parameter passed in. \end{DoxyCompactList}\item 
+bool \hyperlink{class_all_employees_1_1_contract_employee_a41840cab97de95c1cb0c8465d8d56b65}{Setfixed\-Contract\-Amount} (float new\-Amount)
+\begin{DoxyCompactList}\small\item\em This function sets the employee's fixed contract amount to the parameter passed in. \end{DoxyCompactList}\item 
+string \hyperlink{class_all_employees_1_1_contract_employee_a947dd5f3732623e28d0a898f830d5130}{Getcontract\-Start\-Date} ()
+\begin{DoxyCompactList}\small\item\em This function gets the Contract employee's contract\-Start\-Date and returns it. \end{DoxyCompactList}\item 
+string \hyperlink{class_all_employees_1_1_contract_employee_ad80b5b6ee4639a8952393f26cde075b0}{Getcontract\-Stop\-Date} ()
+\begin{DoxyCompactList}\small\item\em This function gets the Contract employee's contract\-Stop\-Date and returns it. \end{DoxyCompactList}\item 
+float \hyperlink{class_all_employees_1_1_contract_employee_a8f296957a217b20754106ba9c7ba60b1}{Getfixed\-Contract\-Amount} ()
+\begin{DoxyCompactList}\small\item\em This function gets the Contract employee's fixed\-Contract\-Amount and returns it. \end{DoxyCompactList}\item 
+override bool \hyperlink{class_all_employees_1_1_contract_employee_aa73b8ebc30a4563e9325912779ab5526}{Validate} ()
+\begin{DoxyCompactList}\small\item\em This function validates all the fields of a contract employee. \end{DoxyCompactList}\item 
+override bool \hyperlink{class_all_employees_1_1_contract_employee_a1a0b62df589342e937dfb7d3a0b11064}{validate\-S\-I\-N} ()
+\begin{DoxyCompactList}\small\item\em This function validates the Business number passed in as a parameter. \end{DoxyCompactList}\item 
+override void \hyperlink{class_all_employees_1_1_contract_employee_ac211f3a0e198612f67ae9c63930e8bbb}{Details} ()
+\begin{DoxyCompactList}\small\item\em This function displays all attributes of an employee. \end{DoxyCompactList}\item 
+override string \hyperlink{class_all_employees_1_1_contract_employee_ae0ba5deffac9dcf5317c91fd7d7f8816}{To\-String} ()
+\begin{DoxyCompactList}\small\item\em This function puts all attributes of an employee into a string to be logged in the logfile. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+to model the attributes and behaviour of an \hyperlink{class_all_employees_1_1_contract_employee}{Contract\-Employee}, 
+
+accessor and mutators for the attributes, validates all the fields of the employee and  shows the details of the \hyperlink{class_all_employees_1_1_contract_employee}{Contract\-Employee}. Validates its own Social insurance number. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_all_employees_1_1_contract_employee_afb78892e913ff2a34aed4d7b78d6c9f7}{\index{All\-Employees\-::\-Contract\-Employee@{All\-Employees\-::\-Contract\-Employee}!Contract\-Employee@{Contract\-Employee}}
+\index{Contract\-Employee@{Contract\-Employee}!AllEmployees::ContractEmployee@{All\-Employees\-::\-Contract\-Employee}}
+\subsubsection[{Contract\-Employee}]{\setlength{\rightskip}{0pt plus 5cm}All\-Employees.\-Contract\-Employee.\-Contract\-Employee (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_all_employees_1_1_contract_employee_afb78892e913ff2a34aed4d7b78d6c9f7}
+
+
+This function is the constructor of the \hyperlink{class_all_employees_1_1_contract_employee}{Contract\-Employee} and it set the initial value for data members to blank. 
+
+{\bfseries Details} 
+\begin{DoxyParams}{Parameters}
+{\em no} & param \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+no returns 
+\end{DoxyReturn}
+\hypertarget{class_all_employees_1_1_contract_employee_a10cf36cf94500aefd99ae2f1d5f90ed2}{\index{All\-Employees\-::\-Contract\-Employee@{All\-Employees\-::\-Contract\-Employee}!Contract\-Employee@{Contract\-Employee}}
+\index{Contract\-Employee@{Contract\-Employee}!AllEmployees::ContractEmployee@{All\-Employees\-::\-Contract\-Employee}}
+\subsubsection[{Contract\-Employee}]{\setlength{\rightskip}{0pt plus 5cm}All\-Employees.\-Contract\-Employee.\-Contract\-Employee (
+\begin{DoxyParamCaption}
+\item[{string}]{con\-Start\-Date, }
+\item[{string}]{con\-Stop\-Date, }
+\item[{float}]{new\-Amount}
+\end{DoxyParamCaption}
+)}}\label{class_all_employees_1_1_contract_employee_a10cf36cf94500aefd99ae2f1d5f90ed2}
+
+
+This function is the constructor of the \hyperlink{class_all_employees_1_1_contract_employee}{Contract\-Employee} and it set the initial value for data members to parameters. 
+
+{\bfseries Details} 
+\begin{DoxyParams}{Parameters}
+{\em con\-Start\-Date} & -\/ {\bfseries string } -\/the start date of the contract for the employee \\
+\hline
+{\em con\-Stop\-Date} & -\/ {\bfseries string } -\/the stop date of the contract for the employee \\
+\hline
+{\em new\-Amount} & -\/ {\bfseries string } -\/the fixed amount of the contract for the employee /// \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+no returns 
+\end{DoxyReturn}
+\hypertarget{class_all_employees_1_1_contract_employee_a29cd5dedb0769d79da50a7653e056d52}{\index{All\-Employees\-::\-Contract\-Employee@{All\-Employees\-::\-Contract\-Employee}!Contract\-Employee@{Contract\-Employee}}
+\index{Contract\-Employee@{Contract\-Employee}!AllEmployees::ContractEmployee@{All\-Employees\-::\-Contract\-Employee}}
+\subsubsection[{Contract\-Employee}]{\setlength{\rightskip}{0pt plus 5cm}All\-Employees.\-Contract\-Employee.\-Contract\-Employee (
+\begin{DoxyParamCaption}
+\item[{string}]{f\-Name, }
+\item[{string}]{l\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_all_employees_1_1_contract_employee_a29cd5dedb0769d79da50a7653e056d52}
+
+
+This function is the constructor of the \hyperlink{class_all_employees_1_1_contract_employee}{Contract\-Employee} and it set the initial value for data members to parameters. 
+
+{\bfseries Details} 
+\begin{DoxyParams}{Parameters}
+{\em f\-Name} & -\/ {\bfseries string } -\/the first name for the employee \\
+\hline
+{\em l\-Name} & -\/ {\bfseries string } -\/the last name for the employee /// \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+no returns 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_all_employees_1_1_contract_employee_ac211f3a0e198612f67ae9c63930e8bbb}{\index{All\-Employees\-::\-Contract\-Employee@{All\-Employees\-::\-Contract\-Employee}!Details@{Details}}
+\index{Details@{Details}!AllEmployees::ContractEmployee@{All\-Employees\-::\-Contract\-Employee}}
+\subsubsection[{Details}]{\setlength{\rightskip}{0pt plus 5cm}override void All\-Employees.\-Contract\-Employee.\-Details (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_all_employees_1_1_contract_employee_ac211f3a0e198612f67ae9c63930e8bbb}
+
+
+This function displays all attributes of an employee. 
+
+{\bfseries Details} -\/\-The child function is displays all the attributes and displays if the contract employee is valid. 
+\begin{DoxyParams}{Parameters}
+{\em no} & params \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+no returns 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{class_all_employees_1_1_employee_af29171e5c95b4ac606ba556ef1f2d3bf}{All\-Employees.\-Employee}.
+
+\hypertarget{class_all_employees_1_1_contract_employee_a947dd5f3732623e28d0a898f830d5130}{\index{All\-Employees\-::\-Contract\-Employee@{All\-Employees\-::\-Contract\-Employee}!Getcontract\-Start\-Date@{Getcontract\-Start\-Date}}
+\index{Getcontract\-Start\-Date@{Getcontract\-Start\-Date}!AllEmployees::ContractEmployee@{All\-Employees\-::\-Contract\-Employee}}
+\subsubsection[{Getcontract\-Start\-Date}]{\setlength{\rightskip}{0pt plus 5cm}string All\-Employees.\-Contract\-Employee.\-Getcontract\-Start\-Date (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_all_employees_1_1_contract_employee_a947dd5f3732623e28d0a898f830d5130}
+
+
+This function gets the Contract employee's contract\-Start\-Date and returns it. 
+
+{\bfseries Details}
+
+
+\begin{DoxyParams}{Parameters}
+{\em no} & params \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+contract\-Start\-Date -\/ {\bfseries string} -\/\-The contract\-Start\-Date of the created contract employee object. 
+\end{DoxyReturn}
+\hypertarget{class_all_employees_1_1_contract_employee_ad80b5b6ee4639a8952393f26cde075b0}{\index{All\-Employees\-::\-Contract\-Employee@{All\-Employees\-::\-Contract\-Employee}!Getcontract\-Stop\-Date@{Getcontract\-Stop\-Date}}
+\index{Getcontract\-Stop\-Date@{Getcontract\-Stop\-Date}!AllEmployees::ContractEmployee@{All\-Employees\-::\-Contract\-Employee}}
+\subsubsection[{Getcontract\-Stop\-Date}]{\setlength{\rightskip}{0pt plus 5cm}string All\-Employees.\-Contract\-Employee.\-Getcontract\-Stop\-Date (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_all_employees_1_1_contract_employee_ad80b5b6ee4639a8952393f26cde075b0}
+
+
+This function gets the Contract employee's contract\-Stop\-Date and returns it. 
+
+{\bfseries Details}
+
+
+\begin{DoxyParams}{Parameters}
+{\em no} & params \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+contract\-Stop\-Date -\/ {\bfseries string} -\/\-The contract\-Stop\-Date of the created contract employee object. 
+\end{DoxyReturn}
+\hypertarget{class_all_employees_1_1_contract_employee_a8f296957a217b20754106ba9c7ba60b1}{\index{All\-Employees\-::\-Contract\-Employee@{All\-Employees\-::\-Contract\-Employee}!Getfixed\-Contract\-Amount@{Getfixed\-Contract\-Amount}}
+\index{Getfixed\-Contract\-Amount@{Getfixed\-Contract\-Amount}!AllEmployees::ContractEmployee@{All\-Employees\-::\-Contract\-Employee}}
+\subsubsection[{Getfixed\-Contract\-Amount}]{\setlength{\rightskip}{0pt plus 5cm}float All\-Employees.\-Contract\-Employee.\-Getfixed\-Contract\-Amount (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_all_employees_1_1_contract_employee_a8f296957a217b20754106ba9c7ba60b1}
+
+
+This function gets the Contract employee's fixed\-Contract\-Amount and returns it. 
+
+{\bfseries Details}
+
+
+\begin{DoxyParams}{Parameters}
+{\em no} & params \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+fixed\-Contract\-Amount -\/ {\bfseries float} -\/\-The fixed\-Contract\-Amount of the created Contract employee object. 
+\end{DoxyReturn}
+\hypertarget{class_all_employees_1_1_contract_employee_a4c8c59b291072d20de69fbca7de333aa}{\index{All\-Employees\-::\-Contract\-Employee@{All\-Employees\-::\-Contract\-Employee}!Setcontract\-Start\-Date@{Setcontract\-Start\-Date}}
+\index{Setcontract\-Start\-Date@{Setcontract\-Start\-Date}!AllEmployees::ContractEmployee@{All\-Employees\-::\-Contract\-Employee}}
+\subsubsection[{Setcontract\-Start\-Date}]{\setlength{\rightskip}{0pt plus 5cm}bool All\-Employees.\-Contract\-Employee.\-Setcontract\-Start\-Date (
+\begin{DoxyParamCaption}
+\item[{string}]{new\-Con\-Start\-Date}
+\end{DoxyParamCaption}
+)}}\label{class_all_employees_1_1_contract_employee_a4c8c59b291072d20de69fbca7de333aa}
+
+
+This function sets the employee's start date of contract to the parameter passed in. 
+
+{\bfseries Details}
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\-Con\-Start\-Date} & -\/ {\bfseries string}-\/the contract start date of the employee \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ret -\/ {\bfseries bool} -\/\-The result to see if the attribute was set. 
+\end{DoxyReturn}
+\hypertarget{class_all_employees_1_1_contract_employee_a13166d1b41e136880ed1840759b243dc}{\index{All\-Employees\-::\-Contract\-Employee@{All\-Employees\-::\-Contract\-Employee}!Setcontract\-Stop\-Date@{Setcontract\-Stop\-Date}}
+\index{Setcontract\-Stop\-Date@{Setcontract\-Stop\-Date}!AllEmployees::ContractEmployee@{All\-Employees\-::\-Contract\-Employee}}
+\subsubsection[{Setcontract\-Stop\-Date}]{\setlength{\rightskip}{0pt plus 5cm}bool All\-Employees.\-Contract\-Employee.\-Setcontract\-Stop\-Date (
+\begin{DoxyParamCaption}
+\item[{string}]{new\-Con\-Stop\-Date}
+\end{DoxyParamCaption}
+)}}\label{class_all_employees_1_1_contract_employee_a13166d1b41e136880ed1840759b243dc}
+
+
+This function sets the employee's stop date of contract to the parameter passed in. 
+
+{\bfseries Details}
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\-Con\-Stop\-Date} & -\/ {\bfseries string} -\/ The stop date for the contract \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ret -\/ {\bfseries bool} -\/\-The result to see if the attribute was set. 
+\end{DoxyReturn}
+\hypertarget{class_all_employees_1_1_contract_employee_a41840cab97de95c1cb0c8465d8d56b65}{\index{All\-Employees\-::\-Contract\-Employee@{All\-Employees\-::\-Contract\-Employee}!Setfixed\-Contract\-Amount@{Setfixed\-Contract\-Amount}}
+\index{Setfixed\-Contract\-Amount@{Setfixed\-Contract\-Amount}!AllEmployees::ContractEmployee@{All\-Employees\-::\-Contract\-Employee}}
+\subsubsection[{Setfixed\-Contract\-Amount}]{\setlength{\rightskip}{0pt plus 5cm}bool All\-Employees.\-Contract\-Employee.\-Setfixed\-Contract\-Amount (
+\begin{DoxyParamCaption}
+\item[{float}]{new\-Amount}
+\end{DoxyParamCaption}
+)}}\label{class_all_employees_1_1_contract_employee_a41840cab97de95c1cb0c8465d8d56b65}
+
+
+This function sets the employee's fixed contract amount to the parameter passed in. 
+
+{\bfseries Details}
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\-Amount} & -\/ {\bfseries float} -\/ The fixed amount for the contract \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ret -\/ {\bfseries bool} -\/\-The result to see if the attribute was set. 
+\end{DoxyReturn}
+\hypertarget{class_all_employees_1_1_contract_employee_ae0ba5deffac9dcf5317c91fd7d7f8816}{\index{All\-Employees\-::\-Contract\-Employee@{All\-Employees\-::\-Contract\-Employee}!To\-String@{To\-String}}
+\index{To\-String@{To\-String}!AllEmployees::ContractEmployee@{All\-Employees\-::\-Contract\-Employee}}
+\subsubsection[{To\-String}]{\setlength{\rightskip}{0pt plus 5cm}override string All\-Employees.\-Contract\-Employee.\-To\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_all_employees_1_1_contract_employee_ae0ba5deffac9dcf5317c91fd7d7f8816}
+
+
+This function puts all attributes of an employee into a string to be logged in the logfile. 
+
+{\bfseries Details} -\/ concatenates if the contract employee is valid, all the attributes and sends them to the log file
+
+
+\begin{DoxyParams}{Parameters}
+{\em no} & params \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+no returns 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{class_all_employees_1_1_employee_acd4e78047e5e4d43e69559fb3f4ff541}{All\-Employees.\-Employee}.
+
+\hypertarget{class_all_employees_1_1_contract_employee_aa73b8ebc30a4563e9325912779ab5526}{\index{All\-Employees\-::\-Contract\-Employee@{All\-Employees\-::\-Contract\-Employee}!Validate@{Validate}}
+\index{Validate@{Validate}!AllEmployees::ContractEmployee@{All\-Employees\-::\-Contract\-Employee}}
+\subsubsection[{Validate}]{\setlength{\rightskip}{0pt plus 5cm}override bool All\-Employees.\-Contract\-Employee.\-Validate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_all_employees_1_1_contract_employee_aa73b8ebc30a4563e9325912779ab5526}
+
+
+This function validates all the fields of a contract employee. 
+
+{\bfseries Details} -\/\-It will validate all the parents attributes, than it validates all the attributes specific to the class. If all field are valid, it return a bool and set the employee to be valid.
+
+
+\begin{DoxyParams}{Parameters}
+{\em no} & parameters \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ret -\/ {\bfseries bool} -\/\-The result to see if the contract employee is valid. 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{class_all_employees_1_1_employee_ad40f5a6a835b161d5d7474b89e353dea}{All\-Employees.\-Employee}.
+
+\hypertarget{class_all_employees_1_1_contract_employee_a1a0b62df589342e937dfb7d3a0b11064}{\index{All\-Employees\-::\-Contract\-Employee@{All\-Employees\-::\-Contract\-Employee}!validate\-S\-I\-N@{validate\-S\-I\-N}}
+\index{validate\-S\-I\-N@{validate\-S\-I\-N}!AllEmployees::ContractEmployee@{All\-Employees\-::\-Contract\-Employee}}
+\subsubsection[{validate\-S\-I\-N}]{\setlength{\rightskip}{0pt plus 5cm}override bool All\-Employees.\-Contract\-Employee.\-validate\-S\-I\-N (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_all_employees_1_1_contract_employee_a1a0b62df589342e937dfb7d3a0b11064}
+
+
+This function validates the Business number passed in as a parameter. 
+
+{\bfseries Details} -\/\-The function checks if the Business number is not empty, than checks if the Business number is the right format. if it is not in the right format it puts the Business number in the right format and It finally checks if the Business number is valid before returning the result of the validation 
+\begin{DoxyParams}{Parameters}
+{\em no} & params \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ret -\/ {\bfseries bool} -\/\-The result of the date validation. 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{class_all_employees_1_1_employee_aeb9f8f33abe84d4334b5ac6bd2b827aa}{All\-Employees.\-Employee}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+E\-M\-S/\-All\-Employees/\hyperlink{_contract_employee_8cs}{Contract\-Employee.\-cs}\end{DoxyCompactItemize}

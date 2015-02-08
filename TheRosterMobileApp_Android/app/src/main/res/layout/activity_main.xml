@@ -1,0 +1,199 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:id="@+id/mainActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/title"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="1" >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:id="@+id/name"
+                android:textColor="#ff5381ff"
+                android:paddingTop="33dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editTextName" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/going_steady"
+                android:id="@+id/checkBoxSteady"/>
+
+<!--            <View android:layout_height="2dp"
+                android:layout_width="fill_parent"
+                android:background="#90909090"/>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/eyeColor"
+                android:id="@+id/eyeColor"
+                android:textColor="#ff5381ff"
+                android:paddingTop="@dimen/activity_vertical_margin"/>
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerEyeColor"
+                android:entries="@array/eyeColor_array" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/birthday"
+                android:id="@+id/textView2"
+                android:textColor="#ff5381ff"
+                android:paddingTop="@dimen/activity_vertical_margin"/>
+
+            <CalendarView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/calendarViewBirthday"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shirtSize"
+                android:id="@+id/shirtSize"
+                android:textColor="#ff5381ff"
+                android:paddingTop="@dimen/activity_vertical_margin"/>
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroupShirtSize"
+                android:orientation="vertical">
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/xs"
+                        android:text="@string/xs"/>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/s"
+                        android:text="@string/s"/>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/m"
+                        android:text="@string/m"/>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/l"
+                        android:text="@string/l"/>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/xl"
+                        android:text="@string/xl"/>
+
+                    <RadioButton
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/xxl"
+                        android:text="@string/xxl"/>
+
+
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pantSize"
+                android:id="@+id/pantSize"
+                android:textColor="#ff5381ff"
+                android:paddingTop="@dimen/activity_vertical_margin"/>
+
+            <SeekBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarPant" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shirtSize"
+                android:id="@+id/sShirtSize"
+                android:textColor="#ff5381ff"
+                android:paddingTop="@dimen/activity_vertical_margin"/>
+
+            <SeekBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarShirt" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shoeSize"
+                android:id="@+id/shoeSize"
+                android:textColor="#ff5381ff"
+                android:paddingTop="@dimen/activity_vertical_margin"/>
+
+            <SeekBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarShoe" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:id="@+id/saveButton"
+                android:onClick="OnButtonClicked"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewSaved"/>
+        </TableLayout>
+    </RelativeLayout>
+</ScrollView>
